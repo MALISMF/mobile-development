@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Солнце: круг и лучи -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M12,7c-2.76,0 -5,2.24 -5,5s2.24,5 5,5 5,-2.24 5,-5 -2.24,-5 -5,-5zM12,15c-1.65,0 -3,-1.35 -3,-3s1.35,-3 3,-3 3,1.35 3,3 -1.35,3 -3,3z"/>
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M12,2L12.75,4.5L12,4L11.25,4.5L12,2z"/>
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M12,22L11.25,19.5L12,20L12.75,19.5L12,22z"/>
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M22,12L19.5,12.75L20,12L19.5,11.25L22,12z"/>
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M2,12L4.5,11.25L4,12L4.5,12.75L2,12z"/>
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M18.36,5.64L16.95,7.05L17.34,6.66L16.95,6.27L18.36,5.64z"/>
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M5.64,18.36L7.05,16.95L6.66,17.34L6.27,16.95L5.64,18.36z"/>
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M18.36,18.36L16.95,16.95L17.34,17.34L16.95,17.73L18.36,18.36z"/>
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M5.64,5.64L6.27,6.27L6.66,6.66L7.05,7.05L5.64,5.64z"/>
+</vector>

@@ -1,0 +1,47 @@
+package com.example.fragmentdemo26
+
+import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.ImageView
+import android.widget.LinearLayout
+import android.widget.TextView
+import androidx.fragment.app.Fragment
+
+/**
+ * Краткий вариант отображения погоды — в виде иконок по дням недели.
+ * Город и язык берутся из AppSettings.
+ */
+class WeatherBriefFragment : Fragment() {
+
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        AppSettings.init(requireContext())
+        val view = inflater.inflate(R.layout.fragment_weather_brief, container, false)
+        val containerLayout = view.findViewById<LinearLayout>(R.id.weather_brief_container)
+        val dayNames = resources.getStringArray(R.array.day_names_short)
+        val weather = WeatherData.getWeatherForCity(AppSettings.cityIndex)
+
+        weather.forEach { day ->
+            val itemView = inflater.inflate(R.layout.item_weather_brief, containerLayout, false)
+            itemView.findViewById<TextView>(R.id.brief_day_name).text = dayNames.getOrElse(day.dayIndex) { "" }
+            itemView.findViewById<ImageView>(R.id.brief_weather_icon).setImageResource(iconForCondition(day.conditionKey))
+            itemView.findViewById<TextView>(R.id.brief_temp).text = "${day.tempMin}° / ${day.tempMax}°"
+            containerLayout.addView(itemView)
+        }
+
+        return view
+    }
+
+    private fun iconForCondition(conditionKey: String): Int = when (conditionKey) {
+        "clear" -> R.drawable.ic_weather_sunny
+        "cloudy" -> R.drawable.ic_weather_cloudy
+        "rain" -> R.drawable.ic_weather_rain
+        "snow" -> R.drawable.ic_weather_snow
+        else -> R.drawable.ic_weather_cloudy
+    }
+}

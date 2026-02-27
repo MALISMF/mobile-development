@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Погода</string>
+    <string name="weather_brief_title">Погода на неделю (кратко)</string>
+    <string name="weather_detail_title">Погода на неделю (подробно)</string>
+    <string name="weather_icon_desc">Иконка погоды</string>
+    <string name="humidity">Влажность:</string>
+    <string name="wind">Ветер:</string>
+    <string name="pressure">Давление:</string>
+    <string name="btn_brief">Кратко</string>
+    <string name="btn_detail">Подробно</string>
+    <string name="btn_settings">Настройки</string>
+    <string name="settings_title">Настройки</string>
+    <string name="settings_language">Язык сообщений</string>
+    <string name="settings_design">Вид дизайна</string>
+    <string name="settings_city">Город</string>
+    <string name="lang_ru">Русский</string>
+    <string name="lang_en">English</string>
+    <string name="city_moscow">Москва</string>
+    <string name="city_london">Лондон</string>
+    <string name="city_berlin">Берлин</string>
+    <string name="condition_clear">Ясно</string>
+    <string name="condition_cloudy">Облачно</string>
+    <string name="condition_rain">Дождь</string>
+    <string name="condition_snow">Снег</string>
+    <string name="wind_units">км/ч</string>
+    <string name="pressure_units">мм</string>
+    <string-array name="day_names_short">
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+        <item>Вс</item>
+    </string-array>
+</resources>
