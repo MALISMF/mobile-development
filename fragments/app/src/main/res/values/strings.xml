@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Погода</string>
+    <string name="weather_brief_title">Погода на неделю (кратко)</string>
+    <string name="weather_detail_title">Погода на неделю (подробно)</string>
+    <string name="weather_icon_desc">Иконка погоды</string>
+    <string name="humidity">Влажность:</string>
+    <string name="wind">Ветер:</string>
+    <string name="pressure">Давление:</string>
+    <string name="btn_brief">Кратко (иконки)</string>
+    <string name="btn_detail">Подробно</string>
+</resources>
