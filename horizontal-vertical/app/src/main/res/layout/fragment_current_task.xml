@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CurrentTaskFragment"
+    android:background="@color/purple_200"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newTask"
+        android:textSize="16sp"
+        android:textColor="@color/purple_700"
+        android:layout_margin="10dp"
+        android:padding="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addTask"
+        android:text="Добавить задачу"
+        android:textSize="16sp"
+        android:textColor="@color/purple_700"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:backgroundTint="@color/white"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/currentTaskField"
+        android:textSize="16sp"
+        android:textColor="@color/purple_700"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:hint="Текущие задачи"/>
+
+</LinearLayout>

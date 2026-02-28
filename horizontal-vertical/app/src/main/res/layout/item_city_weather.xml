@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bg_weather_card"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/item_city_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/weather_text"/>
+
+        <ImageButton
+            android:id="@+id/item_delete"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/delete_city"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_delete"
+            android:padding="8dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/item_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/weather_text"/>
+
+        <TextView
+            android:id="@+id/item_humidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textSize="14sp"
+            android:textColor="@color/weather_text_secondary"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/item_wind_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:contentDescription="@string/wind"
+            android:src="@drawable/ic_wind"/>
+
+        <TextView
+            android:id="@+id/item_wind_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:textSize="12sp"
+            android:textColor="@color/weather_text_secondary"/>
+
+        <ImageView
+            android:id="@+id/item_clouds_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="12dp"
+            android:contentDescription="@string/cloudiness"
+            android:src="@drawable/ic_weather_cloudy"/>
+
+        <TextView
+            android:id="@+id/item_clouds_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:textSize="12sp"
+            android:textColor="@color/weather_text_secondary"/>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/item_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"
+        android:indeterminateTint="@color/weather_text_secondary"/>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/weather_bg_light"
+    tools:context=".CitiesWeatherFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cities_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="16dp"
+        android:paddingTop="32dp"
+        android:clipToPadding="false"
+        tools:listitem="@layout/item_city_weather"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="24dp"
+        android:contentDescription="@string/add_city"
+        app:srcCompat="@android:drawable/ic_input_add"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

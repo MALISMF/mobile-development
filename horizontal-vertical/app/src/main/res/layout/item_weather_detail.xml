@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/bg_weather_card"
+    android:layout_marginBottom="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/detail_weather_icon"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:contentDescription="@string/weather_icon_desc"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp">
+
+            <TextView
+                android:id="@+id/detail_day_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/weather_text"/>
+
+            <TextView
+                android:id="@+id/detail_condition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/weather_text_secondary"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/detail_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/weather_text"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/weather_divider"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/humidity"
+            android:textSize="14sp"
+            android:textColor="@color/weather_text_secondary"/>
+        <TextView
+            android:id="@+id/detail_humidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/weather_text"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/wind"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:textColor="@color/weather_text_secondary"/>
+        <TextView
+            android:id="@+id/detail_wind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/weather_text"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pressure"
+            android:textSize="14sp"
+            android:gravity="end"
+            android:textColor="@color/weather_text_secondary"/>
+        <TextView
+            android:id="@+id/detail_pressure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/weather_text"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Wind: три дуги -->
+    <path
+        android:strokeColor="#78909C"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M3,8 Q8,6 12,8 Q16,10 20,8"/>
+    <path
+        android:strokeColor="#78909C"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M2,12 Q7,10 12,12 Q17,14 22,12"/>
+    <path
+        android:strokeColor="#78909C"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M4,16 Q9,14 14,16 Q19,18 23,16"/>
+</vector>

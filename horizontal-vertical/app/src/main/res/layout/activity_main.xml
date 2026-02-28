@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/container_fragm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/buttons_container"/>
+
+    <LinearLayout
+        android:id="@+id/buttons_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="@color/weather_card_bg"
+        android:elevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_brief"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minHeight="44dp"
+                android:gravity="center"
+                android:text="@string/btn_brief"
+                android:layout_marginEnd="4dp"/>
+
+            <Button
+                android:id="@+id/btn_detail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minHeight="44dp"
+                android:gravity="center"
+                android:text="@string/btn_detail"
+                android:layout_marginStart="4dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_settings"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minHeight="44dp"
+                android:gravity="center"
+                android:text="@string/btn_settings"
+                android:layout_marginEnd="4dp"/>
+
+            <Button
+                android:id="@+id/btn_cities"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minHeight="44dp"
+                android:gravity="center"
+                android:text="@string/btn_cities"
+                android:layout_marginStart="4dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
