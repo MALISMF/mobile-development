@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "com.example.weathertabs.app-merged_res-32:/layout_activity_main.xml.flat",
+        "source": "com.example.weathertabs.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.weathertabs.app-merged_res-32:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.weathertabs.app-main-34:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.weathertabs.app-merged_res-32:/drawable_ic_sunny.png.flat",
+        "source": "com.example.weathertabs.app-main-34:/drawable/ic_sunny.png"
+    },
+    {
+        "merged": "com.example.weathertabs.app-merged_res-32:/drawable_ic_partly_cloudy.png.flat",
+        "source": "com.example.weathertabs.app-main-34:/drawable/ic_partly_cloudy.png"
+    },
+    {
+        "merged": "com.example.weathertabs.app-merged_res-32:/drawable_ic_night_clear.png.flat",
+        "source": "com.example.weathertabs.app-main-34:/drawable/ic_night_clear.png"
+    },
+    {
+        "merged": "com.example.weathertabs.app-merged_res-32:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.weathertabs.app-main-34:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.weathertabs.app-merged_res-32:/drawable_bg_sunny.xml.flat",
+        "source": "com.example.weathertabs.app-main-34:/drawable/bg_sunny.xml"
+    },
+    {
+        "merged": "com.example.weathertabs.app-merged_res-32:/drawable_ic_snow.png.flat",
+        "source": "com.example.weathertabs.app-main-34:/drawable/ic_snow.png"
+    },
+    {
+        "merged": "com.example.weathertabs.app-merged_res-32:/layout_fragment_weather.xml.flat",
+        "source": "com.example.weathertabs.app-main-34:/layout/fragment_weather.xml"
+    },
+    {
+        "merged": "com.example.weathertabs.app-merged_res-32:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.weathertabs.app-main-34:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.weathertabs.app-merged_res-32:/drawable_bg_detail_item.xml.flat",
+        "source": "com.example.weathertabs.app-main-34:/drawable/bg_detail_item.xml"
+    },
+    {
+        "merged": "com.example.weathertabs.app-merged_res-32:/layout_item_hourly.xml.flat",
+        "source": "com.example.weathertabs.app-main-34:/layout/item_hourly.xml"
+    },
+    {
+        "merged": "com.example.weathertabs.app-merged_res-32:/drawable_ic_launcher.png.flat",
+        "source": "com.example.weathertabs.app-main-34:/drawable/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.weathertabs.app-merged_res-32:/drawable_bg_snow.xml.flat",
+        "source": "com.example.weathertabs.app-main-34:/drawable/bg_snow.xml"
+    },
+    {
+        "merged": "com.example.weathertabs.app-merged_res-32:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.weathertabs.app-main-34:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.weathertabs.app-merged_res-32:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.weathertabs.app-main-34:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.weathertabs.app-merged_res-32:/drawable_ic_night_cloudy.png.flat",
+        "source": "com.example.weathertabs.app-main-34:/drawable/ic_night_cloudy.png"
+    },
+    {
+        "merged": "com.example.weathertabs.app-merged_res-32:/drawable_ic_cloudy.png.flat",
+        "source": "com.example.weathertabs.app-main-34:/drawable/ic_cloudy.png"
+    },
+    {
+        "merged": "com.example.weathertabs.app-merged_res-32:/drawable_bg_cloudy.xml.flat",
+        "source": "com.example.weathertabs.app-main-34:/drawable/bg_cloudy.xml"
+    },
+    {
+        "merged": "com.example.weathertabs.app-merged_res-32:/drawable_bg_frost.xml.flat",
+        "source": "com.example.weathertabs.app-main-34:/drawable/bg_frost.xml"
+    },
+    {
+        "merged": "com.example.weathertabs.app-merged_res-32:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.weathertabs.app-main-34:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.weathertabs.app-merged_res-32:/drawable_ic_rain.png.flat",
+        "source": "com.example.weathertabs.app-main-34:/drawable/ic_rain.png"
+    },
+    {
+        "merged": "com.example.weathertabs.app-merged_res-32:/layout_item_daily.xml.flat",
+        "source": "com.example.weathertabs.app-main-34:/layout/item_daily.xml"
+    },
+    {
+        "merged": "com.example.weathertabs.app-merged_res-32:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.weathertabs.app-main-34:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.weathertabs.app-merged_res-32:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.weathertabs.app-main-34:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.weathertabs.app-merged_res-32:/drawable_ic_frost.png.flat",
+        "source": "com.example.weathertabs.app-main-34:/drawable/ic_frost.png"
+    }
+]

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingVertical="10dp"
+    android:paddingHorizontal="4dp">
+
+    <!-- Day name -->
+    <TextView
+        android:id="@+id/tvDay"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        tools:text="Сегодня" />
+
+    <!-- Icon -->
+    <ImageView
+        android:id="@+id/ivDayIcon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/ic_sunny" />
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/tvDayDesc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="13sp"
+        android:textColor="@color/white_70"
+        android:layout_marginStart="12dp"
+        tools:text="Облачно" />
+
+    <!-- Min temp -->
+    <TextView
+        android:id="@+id/tvTempMin"
+        android:layout_width="44dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/white_50"
+        android:gravity="end"
+        tools:text="-6°" />
+
+    <!-- Max temp -->
+    <TextView
+        android:id="@+id/tvTempMax"
+        android:layout_width="44dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="end"
+        tools:text="-1°" />
+
+</LinearLayout>

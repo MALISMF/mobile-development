@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="card_background">#26FFFFFF</color>
+    <color name="colorAccent">#82B1FF</color>
+    <color name="colorPrimary">#3949AB</color>
+    <color name="colorPrimaryDark">#1A237E</color>
+    <color name="tab_background">#1A237E</color>
+    <color name="tab_ripple">#33FFFFFF</color>
+    <color name="tab_text_unselected">#80FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="white_50">#80FFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <string name="app_name">Погода по России</string>
+    <style name="Theme.WeatherTabs" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/tab_background</item>
+    </style>
+</resources>
