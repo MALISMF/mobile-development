@@ -41,6 +41,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final EditText etThreshold;
 
   @NonNull
+  public final TextView tvCoinName;
+
+  @NonNull
   public final TextView tvError;
 
   @NonNull
@@ -63,9 +66,10 @@ public final class ActivityMainBinding implements ViewBinding {
 
   private ActivityMainBinding(@NonNull ScrollView rootView, @NonNull Button btnApplyThreshold,
       @NonNull Button btnRefresh, @NonNull Button btnStartService, @NonNull Button btnStopService,
-      @NonNull CardView cardPrices, @NonNull EditText etThreshold, @NonNull TextView tvError,
-      @NonNull TextView tvJpy, @NonNull TextView tvLastUpdate, @NonNull TextView tvRub,
-      @NonNull TextView tvStatus, @NonNull TextView tvThresholdInfo, @NonNull TextView tvUsd) {
+      @NonNull CardView cardPrices, @NonNull EditText etThreshold, @NonNull TextView tvCoinName,
+      @NonNull TextView tvError, @NonNull TextView tvJpy, @NonNull TextView tvLastUpdate,
+      @NonNull TextView tvRub, @NonNull TextView tvStatus, @NonNull TextView tvThresholdInfo,
+      @NonNull TextView tvUsd) {
     this.rootView = rootView;
     this.btnApplyThreshold = btnApplyThreshold;
     this.btnRefresh = btnRefresh;
@@ -73,6 +77,7 @@ public final class ActivityMainBinding implements ViewBinding {
     this.btnStopService = btnStopService;
     this.cardPrices = cardPrices;
     this.etThreshold = etThreshold;
+    this.tvCoinName = tvCoinName;
     this.tvError = tvError;
     this.tvJpy = tvJpy;
     this.tvLastUpdate = tvLastUpdate;
@@ -145,6 +150,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tvCoinName;
+      TextView tvCoinName = ViewBindings.findChildViewById(rootView, id);
+      if (tvCoinName == null) {
+        break missingId;
+      }
+
       id = R.id.tvError;
       TextView tvError = ViewBindings.findChildViewById(rootView, id);
       if (tvError == null) {
@@ -188,8 +199,8 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       return new ActivityMainBinding((ScrollView) rootView, btnApplyThreshold, btnRefresh,
-          btnStartService, btnStopService, cardPrices, etThreshold, tvError, tvJpy, tvLastUpdate,
-          tvRub, tvStatus, tvThresholdInfo, tvUsd);
+          btnStartService, btnStopService, cardPrices, etThreshold, tvCoinName, tvError, tvJpy,
+          tvLastUpdate, tvRub, tvStatus, tvThresholdInfo, tvUsd);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

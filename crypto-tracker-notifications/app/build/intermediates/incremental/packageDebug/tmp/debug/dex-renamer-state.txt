@@ -1,4 +1,4 @@
-#Mon Mar 30 16:38:23 IRKT 2026
+#Mon Mar 30 18:50:47 IRKT 2026
 base.0=C\:\\Users\\matve\\Desktop\\CryptoTracker\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\matve\\Desktop\\CryptoTracker\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\matve\\Desktop\\CryptoTracker\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex

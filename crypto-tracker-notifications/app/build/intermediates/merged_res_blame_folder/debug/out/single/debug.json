@@ -1,10 +1,10 @@
 [
     {
-        "merged": "com.example.cryptotracker.app-merged_res-32:/layout_activity_main.xml.flat",
-        "source": "com.example.cryptotracker.app-main-34:/layout/activity_main.xml"
+        "merged": "C:\\Users\\matve\\.gradle\\daemon\\9.0-milestone-1\\com.example.cryptotracker.app-merged_res-32:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\matve\\.gradle\\daemon\\9.0-milestone-1\\com.example.cryptotracker.app-main-34:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\matve\\.gradle\\daemon\\8.4\\com.example.cryptotracker.app-merged_res-32:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\matve\\.gradle\\daemon\\8.4\\com.example.cryptotracker.app-main-34:\\layout\\activity_main.xml"
+        "merged": "com.example.cryptotracker.app-merged_res-32:/layout_activity_main.xml.flat",
+        "source": "com.example.cryptotracker.app-main-34:/layout/activity_main.xml"
     }
 ]

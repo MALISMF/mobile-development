@@ -19,6 +19,7 @@ id btnStartService
 id btnStopService
 id cardPrices
 id etThreshold
+id tvCoinName
 id tvError
 id tvJpy
 id tvLastUpdate

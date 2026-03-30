@@ -63,7 +63,8 @@ class MainActivity : AppCompatActivity() {
                     val usd = intent.getDoubleExtra(CryptoPriceService.EXTRA_USD, 0.0)
                     val rub = intent.getDoubleExtra(CryptoPriceService.EXTRA_RUB, 0.0)
                     val jpy = intent.getDoubleExtra(CryptoPriceService.EXTRA_JPY, 0.0)
-                    displayPrices(usd, rub, jpy)
+                    val symbol = intent.getStringExtra(CryptoPriceService.EXTRA_SYMBOL) ?: "BTC"
+                    displayPrices(symbol, usd, rub, jpy)
                 }
                 CryptoPriceService.ACTION_ERROR -> {
                     val error = intent.getStringExtra(CryptoPriceService.EXTRA_ERROR) ?: "Неизвестная ошибка"
@@ -151,7 +152,8 @@ class MainActivity : AppCompatActivity() {
 
     // ------------------------------------------------------------------ Display
 
-    private fun displayPrices(usd: Double, rub: Double, jpy: Double) {
+    private fun displayPrices(symbol: String, usd: Double, rub: Double, jpy: Double) {
+        binding.tvCoinName.text = symbol
         binding.tvUsd.text = "\$%.2f".format(usd)
         binding.tvRub.text = "%.2f ₽".format(rub)
         binding.tvJpy.text = "¥%.2f".format(jpy)

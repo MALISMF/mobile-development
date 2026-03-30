@@ -4,7 +4,7 @@
             "outputFile": "com.example.cryptotracker.app-mergeDebugResources-30:/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\matve\\.gradle\\caches\\transforms-3\\7f7f8c5a762c9794334ecc4c607618cf\\transformed\\appcompat-1.6.1\\res\\values-v22\\values-v22.xml",
+                    "source": "C:\\Users\\matve\\.gradle\\caches\\9.0-milestone-1\\transforms\\1a17623bd80e0e7bb67f6d911051c88a\\transformed\\appcompat-1.6.1\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

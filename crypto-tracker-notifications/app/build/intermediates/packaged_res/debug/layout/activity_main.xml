@@ -29,6 +29,17 @@
                 android:orientation="vertical"
                 android:padding="20dp">
 
+                <TextView
+                    android:id="@+id/tvCoinName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BTC"
+                    android:textColor="@color/accent_blue"
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_marginBottom="16dp"/>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
